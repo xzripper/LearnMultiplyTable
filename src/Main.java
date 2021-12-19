@@ -5,8 +5,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner ScannerObject = new Scanner(System.in);
 
-        boolean Activity = true;
-
         int ProblemSolution;
 
         int[] Numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -20,7 +18,7 @@ public class Main {
         String WelcomeText = "Welcome to multiply table learning!\nHere you can learn a multiply table, after passing, app shows your correct and invalid solution of problem.\nRemember, if you write not number, app close, so, be careful!\nGood luck!\n";
         System.out.println(WelcomeText);
 
-        while(Activity) {
+        while(true) {
             String Placeholder = String.format("%d * %d = ",  FirstNumber, SecondNumber);
             System.out.print(Placeholder);
 
